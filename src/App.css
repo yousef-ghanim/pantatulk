@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+:root {
+  --secondary: rgb(109, 109, 109);
+  --bg-color: #fff;
+  /* --primary: #062553; */
+  --primary: rgb(60, 60, 60);
+  --sass: rgba(231, 200, 133, 0.9);
+  /* --bright: #ece13c; */
+  --bright: #0aee96;
+  --btn: #e95858;
+  --btnhover: #eb4040;
+  --shadow: #dfdfdf;
+  --footer: rgb(25, 25, 25);
+  color: rgb(92, 92, 92);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Roboto Slab", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p,
+span {
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+h4 {
+  font-size: 3rem;
+}
+
+/* section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  align-items: center;
+  margin-top: 7rem;
+} */
