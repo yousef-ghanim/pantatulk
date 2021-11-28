@@ -45,13 +45,16 @@ export const InputDiv = styled.div`
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  width: 38rem;
+  width: 40rem;
   align-items: center;
+  padding-left: 2rem;
+  /* border: 0.1rem solid black; */
   @media screen and (max-width: 520px) {
     flex-direction: column;
     width: unset;
-    justify-content: right;
-    align-items: flex-end;
+    padding-left: 0rem;
+    /* justify-content: right;
+    align-items: flex-end; */
   }
 `;
 
@@ -68,6 +71,9 @@ export const InputWrapperTime = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 520px) {
+    flex-direction: column;
+  }
 `;
 
 export const Label = styled.label`
@@ -164,6 +170,9 @@ export const AlertText = styled.h5`
 export const ContactWrapper = styled.div``;
 export const ContactDiv = styled.div`
   max-width: 25rem;
+  @media screen and (max-width: 1020px) {
+    margin-top: 5rem;
+  }
 `;
 export const ContactItem = styled.div`
   text-align: center;
