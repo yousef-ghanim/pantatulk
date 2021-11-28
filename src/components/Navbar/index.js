@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             {siteLinks.map((item) => {
               return (
-                <NavLinks>
+                <NavLinks key={item.id}>
                   <NavElem
                     to={item.path}
                     activeClassName={item.class}

@@ -47,9 +47,11 @@ export const InputDiv = styled.div`
   justify-content: space-between;
   width: 38rem;
   align-items: center;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 520px) {
     flex-direction: column;
     width: unset;
+    justify-content: right;
+    align-items: flex-end;
   }
 `;
 

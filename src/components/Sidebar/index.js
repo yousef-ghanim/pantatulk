@@ -19,7 +19,7 @@ const Sidebar = ({ toggle, isOpen }) => {
       <SidebarMenu>
         {siteLinks.map((item) => {
           return (
-            <SidebarLink>
+            <SidebarLink key={item.id}>
               <SingleLink
                 to={item.path}
                 activeClassName={item.class}

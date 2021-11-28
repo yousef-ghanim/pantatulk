@@ -45,7 +45,7 @@ const Footer = () => {
             <SiteMap>
               {siteLinks.map((item) => {
                 return (
-                  <FooterLink>
+                  <FooterLink key={item.id}>
                     <SingleLink to={item.path} onClick={scrollTop}>
                       {item.name}
                     </SingleLink>
